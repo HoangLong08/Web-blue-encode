@@ -1,0 +1,29 @@
+.Footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 15vh;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	position: relative;
+}
+
+.Footer:before {
+  opacity: 0;
+}
+
+.Footer:before {
+	content: "";
+	background: #6ccce5;
+	height: 2px;
+	width: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.Icons a{
+	display: inline-block;
+	margin: 0 24px;
+}
